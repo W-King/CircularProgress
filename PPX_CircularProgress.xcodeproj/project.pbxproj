@@ -15,6 +15,7 @@
 		5728F0841DAA2898009E4FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5728F0821DAA2898009E4FAD /* LaunchScreen.storyboard */; };
 		5728F08F1DAA2898009E4FAD /* PPX_CircularProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5728F08E1DAA2898009E4FAD /* PPX_CircularProgressTests.m */; };
 		5728F09A1DAA2898009E4FAD /* PPX_CircularProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5728F0991DAA2898009E4FAD /* PPX_CircularProgressUITests.m */; };
+		5728F0AA1DAA28F0009E4FAD /* PPX_CircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5728F0A91DAA28F0009E4FAD /* PPX_CircularProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5728F0951DAA2898009E4FAD /* PPX_CircularProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPX_CircularProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5728F0991DAA2898009E4FAD /* PPX_CircularProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPX_CircularProgressUITests.m; sourceTree = "<group>"; };
 		5728F09B1DAA2898009E4FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5728F0A81DAA28F0009E4FAD /* PPX_CircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPX_CircularProgressView.h; sourceTree = "<group>"; };
+		5728F0A91DAA28F0009E4FAD /* PPX_CircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPX_CircularProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5728F0731DAA2898009E4FAD /* PPX_CircularProgress */ = {
 			isa = PBXGroup;
 			children = (
+				5728F0A71DAA28DD009E4FAD /* PPX_CircularProgressView */,
 				5728F0771DAA2898009E4FAD /* AppDelegate.h */,
 				5728F0781DAA2898009E4FAD /* AppDelegate.m */,
 				5728F07A1DAA2898009E4FAD /* ViewController.h */,
@@ -138,6 +142,15 @@
 				5728F09B1DAA2898009E4FAD /* Info.plist */,
 			);
 			path = PPX_CircularProgressUITests;
+			sourceTree = "<group>";
+		};
+		5728F0A71DAA28DD009E4FAD /* PPX_CircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				5728F0A81DAA28F0009E4FAD /* PPX_CircularProgressView.h */,
+				5728F0A91DAA28F0009E4FAD /* PPX_CircularProgressView.m */,
+			);
+			path = PPX_CircularProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5728F07C1DAA2898009E4FAD /* ViewController.m in Sources */,
+				5728F0AA1DAA28F0009E4FAD /* PPX_CircularProgressView.m in Sources */,
 				5728F0791DAA2898009E4FAD /* AppDelegate.m in Sources */,
 				5728F0761DAA2898009E4FAD /* main.m in Sources */,
 			);
